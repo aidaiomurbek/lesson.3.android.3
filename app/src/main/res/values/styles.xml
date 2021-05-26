@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text3" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/teal_700</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/edit_bg</item>
+        <item name="android:height">50sp</item>
+        <item name="android:gravity"> center </item>
+        <item name="fontFamily">@font/bebasneue_book</item>
+    </style>
+
+    <style name="textSave" parent="TextAppearance.AppCompat.Title">
+        <item name="android:text">save</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:height">50sp</item>
+        <item name="android:gravity"> center </item>
+        <item name="fontFamily">@font/bebasneue_book</item>
+    </style>
+
+    <style name="textList">
+        <item name="android:text">Title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:layout_marginStart">90dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:gravity"> center </item>
+        <item name="fontFamily">@font/bebasneue_book</item>
+    </style>
+
+    <style name="contentList">
+        <item name="android:text">Content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:layout_marginStart">90dp</item>
+        <item name="android:gravity"> center </item>
+        <item name="fontFamily">@font/bebasneue_book</item>
+    </style>
+
+    <style name="useList">
+        <item name="android:text">User</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:layout_marginEnd">90dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity"> center </item>
+        <item name="fontFamily">@font/bebasneue_book</item>
+    </style>
+
+    <style name="groupList">
+        <item name="android:text">Group</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">90dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:gravity"> center </item>
+        <item name="fontFamily">@font/bebasneue_book</item>
+    </style>
+
+
+    <style name="btnStyle">
+        <item name="android:text">@string/Lets</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:fontFamily">@font/bebasneue_book</item>
+        <item name="android:backgroundTint">#E39090</item>
+    </style>
+
+    <style name="recyclerStyle">
+        <item name="android:layout_weight">10</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+</resources>
